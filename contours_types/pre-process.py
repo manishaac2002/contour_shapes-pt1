@@ -3,13 +3,14 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Read the image
-image2 = cv2.imread('images/-_2003880-_URO-_20442_20200519_Kidney_0002.JPG') 
+image2 = cv2.imread('images/-_2003880-_URO-_20442_20200519_Kidney_0002.jpg') 
 
 # Display the image
 plt.figure(figsize=[10,10])
 plt.imshow(image2[:,:,::-1]);plt.title("Original Image");plt.axis("off")
 
 image2_copy = image2.copy()
+
  
 # Convert the image to gray-scale
 gray = cv2.cvtColor(image2_copy, cv2.COLOR_BGR2GRAY)

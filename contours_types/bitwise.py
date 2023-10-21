@@ -4,7 +4,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Read the image
-image2 = cv2.imread('images/-_2003880-_URO-_20442_20200519_Kidney_0002.JPG') 
+image2 = cv2.imread('images/blobs.png') 
 
 # Display the image
 plt.figure(figsize=[10,10])
